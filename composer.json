@@ -1,0 +1,25 @@
+{
+    "name": "rayboyd/morty",
+    "description": "CMS Framework for PHP",
+    "keywords": ["cms", "framework"],
+    "homepage": "https://github.com/rayboyd/morty",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ray Boyd",
+            "email": "email@domain.com",
+            "homepage": "http://rayboyd.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/var-dumper": "~3.0.*",
+        "symfony/yaml": "~3.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Morty\\": "src/Morty/"
+        }
+    }
+}
