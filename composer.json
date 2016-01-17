@@ -20,5 +20,5 @@
             "Morty\\": "src/Morty/"
         }
     },
-    "minimum-stability": "dev-master"
+    "minimum-stability": "stable"
 }
